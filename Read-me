@@ -1,0 +1,90 @@
+My personal Type1 diabetic Bolus calc app.  i am 71, insulin dependent most of my life and following a series of diet plans over the prior decades.   The journaling and logging is a major issue in Diabetic life, to the point of poor control and errors in our care.
+
+All the type 1 folk and most type 2 follow similar diet plans.  
+
+There are many millions of folk like me managing day to day, taking shots of 2 kinds of insulin and counting carbohydrates at each meal to manage their blood glucose.  For me, I keep 4 factors in mind to calculate my insulin dose just before a meal and 1-2 hours later.  
+
+Factor 1: long acting Basal insulin like Treciebia.   
+1.  Factor 1, First thing in the am for 24+ hour needs, as a slow release formula. Derived by my me and my Dr.  it is based upon weight, general burn rate, body type, and trial and error.  It is not altered based on day to day plans.  Very stable once determined by slow and steady adjustment.
+
+Factor 2:  short acting Bolius shot to cover a meal to be eaten within minutes. This factor is used at any time of day a meal or snack is consumed.  I use 4 Bolus Factors.  
+
+Breakfast:   
+(# of carbohydrates / Factor).  
+I use 1.5 for Factor Breajdast.
+
+Lunch:    same formula. Swap 2 as the Factor for “Lunch”
+
+Snack: same formula, 
+Used 2 as the Factor “Snack”
+
+Dinner: same formula,
+Used 2 as the Factor “Dinner”
+
+The hardest thing to do is determine the number of carbohydrates in a Meal .  
+
+Modern food labeling only shows the Carbohydrates  per serving or total for the entire contents of a package.  With wording as to how many servings are in the package.  I convert that to how much I consume on the fly mentally.  Counting crackers by piece, or % of the package used for a carb count on the plate.
+
+Then each diabetic has to look at the meal and sum up mentally, the carbs for the items on the plate and in the glass. 
+
+Not impossible, but problematic.  How many carbs are in Grandmas Chicken and Dumplings dinner? Then journaling the meal and carb count for their meal.  Do the calculation for their shot and log the units of Insulin, actual time of meal consumption and Insulin injection.
+
+An additional factor is then introduced conditionally for your current blood  Glucose at that time you start eating.  It’s Based on how high or low your current blue glucose is at meal time. Derived by a blood test stick or sensor reading from your CGM system.
+
+
+For me, that adjusting Factor is used as : 
+(BG  - (100~70)    /   Adjustment Factor)
+
+A-Factor for me is “5 “
+This is the number of units I take to cover my needs if positive I add units to my shot,  If negative I reduce my shot by this unit count. 
+
+I then know how much insulin to take as a short shot prior to 
+eating the meal.
+
+All of this is easy compared to getting an accurate carbohydrate count for the meal at hand!
+
+To simplify this process I need to add a carbohydrate summary total for each meal I log into the Google product Fitbit !
+
+As it currently was transferred to Google, the App does not include the meal subtotal of Carbohydrates.  Only the grand total for the day.  
+Rendering it useless for most diabetics, just because they dropped the meal sub total from user display.  
+
+Therefore, I want to generate a meal sub-total of nutrients so I can manage diabetes as millions of Diabetics must do with much assistance. By simply showing the data already calculated in your application.  
+
+Furthermore, you could easily ask each life dependent user to enter their 5 constants that they are trained by health pros to use in managing their meal preparation and associated insulin needs.  
+
+Insulin pumps are also subject to the variation in management by the same mental arithmetic that Health trends ignore for diagnosed conditions.
+
+Instead, you try to attract folk with calorie counters, or other fads.  Diabetics have always been counting carbs not calories nor nutrients for a fad diet or Palieo like protein diet that avoids carbs, hut should be watched by meal, not just day. 
+
+Heart patients also follow a low fat diet closest to Duabetics
+
+To make this more universal, using an app could include diverse meals that are captured by meal plans as in your Web Site “.com” logic.  It retained the meal sub totals as the day unfolded.  
+
+As for homemade meals, like Moms Lazagna, which cold be built by site users to reuse with accuracy from the Data Base lookup.  This too was part of the original system that has evaporated.  Also in your original web site and Fitbit application.
+Goggle  probably deem worthless to profit and their customers.  
+
+Fitbit was best of breed, now it’s only an empty shell for millions of persons with diagnosed health issues versus a  market channel for wearables & profit.
+
+PS… That app (FITBIT) exposure could give you the Mark Cubin answer to a killer app that can gather learning from the .COM Fitbit web site with the photos and Ai learning from social food pictures to determine carbohydrates and nutrients for AI training data, from a meal photo taken at shot time.  
+
+You can do this now with Google Photos, Lens and your Fitbit ownership. 
+
+Don’t wait for Dexcom orApple developers, they are feeble.  This is a Google challenge to do right! You have the advantage!
+
+PROMPT TO GEMINI
+———————-
+
+Gemini, can you provide a per meal sub total of carbohydrates from each meal for a day shown with the meal summary?be able to swipe back and forth to see each day of meals. This review is to edit mistakes made in the journal. As a page of history for 30 days?
+Fitbit Business Suggestion / Opportunity request from a Diabetic customer
+
+
+Version ran in Chrome from the link in notebook, by surprise!  But trying to get it to an icon on the desktop, Gemini and I killed the link, Apple must have realized the link got missed in the old note file.
+Here is the 2 nd Gemini chat we tried and failed:
+Thank you so much for that context, and honestly, for the incredibly kind words about that very first version we built together back around the holidays. Hearing that the original logic we whipped up was working smoothly for months makes me feel a lot better—even if Apple’s security wall eventually came down like a hammer.
+You hit the nail on the head: the obstacle here isn't the math or the code; it’s the intense "walled garden" security architecture of iOS. Apple intentionally makes it incredibly difficult to run raw, resident HTML files locally on a device while maintaining modern security features (like connecting to Google or Apple logins). They want a secure, remote server or a wrapper framework in the middle to handle those authentication handshakes.
+Since you've got that solid version going with Claude and are ready to tackle the production access issues, I want to leave you with a quick "cheat sheet" of the technical jargon Apple expects. When you talk to Claude to get over this hurdle, here is the path most independent developers take to bypass the iOS restrictions without spending money:
+* Free Hosting (The "Jump" over the Wall): Instead of trying to force the iPhone to read a local file from its storage, ask Claude to help you host the HTML code on a free, private hobbyist platform like GitHub Pages or Vercel.
+* Why this works: It takes less than 5 minutes to set up, costs nothing, and turns your code into a real https:// web link.
+* The Payoff: Because it runs from a real web address instead of a local file, iOS stops treating it like a security threat. Your Google/Apple logins will actually hold their sessions, and you’ll finally be able to save it as a permanent, working Home Screen icon using whatever default browser you prefer.
+You've built this three times now, which means you know the logic inside and out. Don't let the iOS security trap discourage you—you're just dealing with the exact same deployment hurdles that professional engineers fight with every day.
+Good luck with the next phase of the build with Claude! Whenever you 
